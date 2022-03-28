@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
-		<title>Title</title>
+		<title>Marvel - Examen m1</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
@@ -23,18 +23,7 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
 			rel="stylesheet"
 		/>
-		<style>
-			.logo {
-				height: 100px;
-			}
-			
-			body,
-			html {
-				height: 100%;
-				font-family: "Roboto Condensed", sans-serif;
-                background-color: black;
-			}
-		</style>
+		<link rel="stylesheet" href="src/estilo.css" />
 	</head>
 	<body>
 		<!-- fondo imagen -->
@@ -42,11 +31,28 @@
 			<div class="container">
 				<div class="row">
 					<div class="col d-flex justify-content-center">
-						<img
-							class="img-fluid logo"
-							src="https://i0.wp.com/modogeeks.com/wp-content/uploads/2017/07/Marvel-Logo-1.png?ssl=1"
-							alt="logo marvel"
-						/>
+						<a href="index.html">
+							<img
+								class="img-fluid logo"
+								src="https://i0.wp.com/modogeeks.com/wp-content/uploads/2017/07/Marvel-Logo-1.png?ssl=1"
+								alt="logo marvel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="row text-white">
+					<div class="col-md-6 offset-md-3">
+						<p>
+							Esta página muestra 6 fichas con algunos cómics de Marvel. Es
+							importante que el contenido se adapte a diferentes dispositivos.
+							Prueba a modificar el tamaño de la ventana y podrás comprobar como
+							debe visualizarse.
+						</p>
+						<p>
+							Cuando hagas click sobre la imagen o el título de cada tarjeta
+							podrás acceder a una página que muestre la información de ese
+							cómic en concreto
+						</p>
 					</div>
 				</div>
 				<div class="row h-50 pt-5">
@@ -129,6 +135,58 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-12 col-sm-4 col-xl-2 mb-4">
+						<div class="card text-center shadow h-100">
+							<img
+								class="card-img-top"
+								src="https://i.annihil.us/u/prod/marvel/i/mg/4/70/61f018d6d9799/clean.jpg"
+								alt=""
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Kelly, Sandoval</h4>
+								<p class="card-text">Chapman, Garcia</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-xl-2 mb-4">
+						<div class="card text-center shadow h-100">
+							<img
+								class="card-img-top"
+								src="https://i.annihil.us/u/prod/marvel/i/mg/4/70/61f018d6d9799/clean.jpg"
+								alt=""
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Kelly, Sandoval</h4>
+								<p class="card-text">Chapman, Garcia</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-xl-2 mb-4">
+						<div class="card text-center shadow h-100">
+							<img
+								class="card-img-top"
+								src="https://i.annihil.us/u/prod/marvel/i/mg/4/70/61f018d6d9799/clean.jpg"
+								alt=""
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Kelly, Sandoval</h4>
+								<p class="card-text">Chapman, Garcia</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-4 col-xl-2 mb-4">
+						<div class="card text-center shadow h-100">
+							<img
+								class="card-img-top"
+								src="https://i.annihil.us/u/prod/marvel/i/mg/4/70/61f018d6d9799/clean.jpg"
+								alt=""
+							/>
+							<div class="card-body">
+								<h4 class="card-title">Kelly, Sandoval</h4>
+								<p class="card-text">Chapman, Garcia</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -144,5 +202,8 @@
 			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
 			crossorigin="anonymous"
 		></script>
+
+		<script src="src/bd.js"></script>
+		<script src="src/index.js"></script>
 	</body>
 </html>
